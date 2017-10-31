@@ -2,7 +2,7 @@
 
 A simple project that implements an textbox system like the ones from old console RPGs like Final Fantasy or Pokémon.
 
-#Introduction
+# Introduction
 
 This asset is meant to make easy to implement an RPG text system. With just a few lines of code you can make text boxes, decision boxes and input boxes. The flow of a conversation is modeled as a graph, with each node representing one type of "box". Each node can point to a next one, none (which ends the conversation) or multiple ones.
 It works with Unity's UI system, and comes with a canvas prefab with everything needed already set, but you can move or resize things as you see fit.
