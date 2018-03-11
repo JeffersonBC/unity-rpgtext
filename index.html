@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | Unity RPG Text</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/web build.json", {onProgress: UnityProgress});
@@ -14,6 +14,11 @@
   </head>
   <body>
     <div class="webgl-content">
+      <h2>Instructions</h2>
+      <p><strong>Space key/ Left mouse button:</strong> Next/ Confirm</p>
+      <p><strong>Arrow keys:</strong> Choose options</p>
+      <br>
+
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
