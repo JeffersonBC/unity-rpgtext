@@ -5,7 +5,7 @@ public class TextBox : MonoBehaviour {
 
     public float    renderSpeed = 15f;
     public int      newLinesPerMessage = 3;
-    public string   nextButton = "Submit";
+    private string   nextButton = "Fire1";
 
     public CanvasRenderer textPanel;
     public CanvasRenderer namePanel;
